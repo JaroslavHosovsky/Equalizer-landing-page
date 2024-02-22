@@ -1,0 +1,131 @@
+/* === COLORS === */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  background-image: url(images/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: top -20% right 95%;
+}
+
+header {
+  width: 85%;
+  margin: 40px auto 185px auto;
+}
+header img {
+  padding-bottom: 57px;
+}
+header h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+header p {
+  font-size: 17px;
+}
+
+main {
+  height: 500px;
+  background-image: url(images/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: #191826;
+  background-position: top 0% left 50%;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 475px;
+}
+main img {
+  width: 59%;
+  height: auto;
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translate(-50%);
+}
+main .subscription-container {
+  background-color: #fa7453;
+  position: absolute;
+  bottom: -425px;
+  padding: 40px 40px;
+  border-radius: 10px 10px;
+  color: #fcfaf9;
+}
+main .subscription-container h2 {
+  padding-bottom: 20px;
+  font-size: 33px;
+}
+main .subscription-container p {
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+main .subscription-container .pricing-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 20px;
+}
+main .subscription-container .pricing-container span {
+  font-size: 60px;
+  font-weight: bold;
+}
+main .subscription-container .pricing-container p {
+  padding: 0;
+}
+main .subscription-container .ios-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #191826;
+}
+main .subscription-container .ios-button img {
+  width: 15px;
+  position: static;
+}
+main .subscription-container .android-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #fcfaf9;
+  color: #191826;
+}
+main .subscription-container .android-button img {
+  width: 15px;
+  position: static;
+}
+
+footer {
+  padding: 15px 53px 40px 25px;
+}
+footer img {
+  padding-bottom: 25px;
+}
+footer p {
+  padding-bottom: 10px;
+}
+footer span {
+  font-weight: bold;
+}
+footer .icon-container {
+  margin-top: 55px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}/*# sourceMappingURL=style.css.map */

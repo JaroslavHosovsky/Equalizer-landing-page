@@ -1,0 +1,15 @@
+@mixin buttonStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: bold;
+
+  img {
+    width: 15px;
+    position: static;
+  }
+}
