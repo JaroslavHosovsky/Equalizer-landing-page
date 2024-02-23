@@ -92,11 +92,19 @@ main {
     .ios-button {
       @include buttonStyle;
       background-color: $primary_black;
+
+      &:hover {
+        background-color: $primary_green;
+      }
     }
     .android-button {
       @include buttonStyle;
       background-color: $primary_white;
       color: $primary_black;
+
+      &:hover {
+        background-color: $primary_orange;
+      }
     }
   }
 }
@@ -122,5 +130,15 @@ footer {
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
+
+    img {
+      transition: all 0.2s linear;
+
+      &:hover {
+        filter: brightness(0) saturate(100%) invert(54%) sepia(20%)
+          saturate(1546%) hue-rotate(324deg) brightness(101%) contrast(96%);
+        cursor: pointer;
+      }
+    }
   }
 }

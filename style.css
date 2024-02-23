@@ -87,11 +87,16 @@ main .subscription-container .ios-button {
   margin-bottom: 15px;
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s linear;
   background-color: #191826;
 }
 main .subscription-container .ios-button img {
   width: 15px;
   position: static;
+}
+main .subscription-container .ios-button:hover {
+  background-color: #66e2dc;
 }
 main .subscription-container .android-button {
   display: flex;
@@ -102,12 +107,17 @@ main .subscription-container .android-button {
   margin-bottom: 15px;
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s linear;
   background-color: #fcfaf9;
   color: #191826;
 }
 main .subscription-container .android-button img {
   width: 15px;
   position: static;
+}
+main .subscription-container .android-button:hover {
+  background-color: #ffb964;
 }
 
 footer {
@@ -128,4 +138,11 @@ footer .icon-container {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
+}
+footer .icon-container img {
+  transition: all 0.2s linear;
+}
+footer .icon-container img:hover {
+  filter: brightness(0) saturate(100%) invert(54%) sepia(20%) saturate(1546%) hue-rotate(324deg) brightness(101%) contrast(96%);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
