@@ -145,4 +145,59 @@ footer .icon-container img {
 footer .icon-container img:hover {
   filter: brightness(0) saturate(100%) invert(54%) sepia(20%) saturate(1546%) hue-rotate(324deg) brightness(101%) contrast(96%);
   cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-image: url(images/bg-pattern-1.svg), url(images/bg-main-tablet.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 33%, 125%;
+    background-position: right -6% top -2%, top -8% right 15%;
+  }
+  header {
+    width: 85%;
+  }
+  header h1 {
+    max-width: 350px;
+  }
+  header p {
+    max-width: 481px;
+  }
+  main {
+    width: 85%;
+    margin: auto;
+    background-size: 240px;
+    background-position: top -27% left 65%;
+    border-radius: 10px;
+    margin-bottom: 300px;
+  }
+  main img {
+    width: 230px;
+    height: auto;
+    position: absolute;
+    top: -100px;
+    left: 150px;
+  }
+  main .subscription-container {
+    bottom: -164px;
+    right: 30px;
+    width: 350px;
+  }
+  footer {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 45px 0;
+  }
+  footer .footer-text-container {
+    width: 322px;
+  }
+  footer .icon-container {
+    align-self: flex-end;
+  }
+  footer .icon-container img {
+    width: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */

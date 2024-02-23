@@ -142,3 +142,68 @@ footer {
     }
   }
 }
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-image: url(images/bg-pattern-1.svg),
+      url(images/bg-main-tablet.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 33%, 125%;
+    background-position: right -6% top -2%, top -8% right 15%;
+  }
+
+  header {
+    width: 85%;
+
+    h1 {
+      max-width: 350px;
+    }
+    p {
+      max-width: 481px;
+    }
+  }
+
+  main {
+    width: 85%;
+    margin: auto;
+    background-size: 240px;
+    background-position: top -27% left 65%;
+    border-radius: 10px;
+    margin-bottom: 300px;
+
+    img {
+      width: 230px;
+      height: auto;
+      position: absolute;
+      top: -100px;
+      left: 150px;
+    }
+
+    .subscription-container {
+      bottom: -164px;
+      right: 30px;
+      width: 350px;
+    }
+  }
+
+  footer {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 45px 0;
+
+    .footer-text-container {
+      width: 322px;
+    }
+
+    .icon-container {
+      align-self: flex-end;
+
+      img {
+        width: 25px;
+      }
+    }
+  }
+}
