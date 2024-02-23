@@ -207,3 +207,59 @@ footer {
     }
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    background-image: url(images/bg-pattern-1.svg),
+      url(images/bg-main-desktop.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25%, 125%;
+    background-position: right 0% top -2%, top -130px right -45px;
+  }
+
+  header {
+    width: 80%;
+    margin: 40px auto 224px auto;
+    h1 {
+      max-width: 540px;
+      font-size: 55px;
+    }
+
+    p {
+      max-width: 564px;
+    }
+  }
+
+  main {
+    width: 80%;
+    background-position: top -36px left 240px;
+    margin-bottom: 200px;
+
+    img {
+      top: -150px;
+      left: 185px;
+    }
+
+    .subscription-container {
+      bottom: -115px;
+      right: 60px;
+    }
+  }
+
+  footer {
+    width: 80%;
+    .footer-logo-text-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 100px;
+
+      img {
+        align-self: flex-start;
+      }
+    }
+    .icon-container {
+      padding-bottom: 25px;
+    }
+  }
+}
